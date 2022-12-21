@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
-body{
+
+body {
     min-height: 100%;
 }
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +82,7 @@ main {
     /* border: lightblue solid 4px; */
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-direction: row;
     min-height: 100%;
@@ -88,12 +90,12 @@ main {
     border: lightblue solid 4px;
 }
 
-.about-head{
+.about-head {
     text-align: right;
     border-right: lightblue 3px solid;
 }
 
-.about-text{
+.about-text {
     padding: 0em 0em 0em 0em;
 }
 
@@ -107,7 +109,7 @@ main {
     /* border: lightblue solid 4px; */
 }
 
-.work{
+.work {
     display: flex;
     flex-direction: row;
     min-height: 100%;
@@ -116,12 +118,12 @@ main {
     border: lightblue solid 4px;
 }
 
-.work-head{
+.work-head {
     text-align: right;
     border-right: lightblue 3px solid;
 }
 
-.big img{
+.big img {
     max-width: 85%;
     margin: 0em 0em 0em 4em;
 }
@@ -136,7 +138,7 @@ main {
     /* border: lightblue solid 4px; */
 }
 
-.work2{
+.work2 {
     display: flex;
     flex-direction: row;
     min-height: 100%;
@@ -145,7 +147,7 @@ main {
     border: lightblue solid 4px;
 }
 
-.big img{
+.big img {
     max-width: 85%;
     margin: 0em 0em 0em 4em;
 }
@@ -156,7 +158,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.grid img{
+.grid img {
     max-width: 100%;
     border: lightblue solid 4px;
     display: flex;
@@ -164,8 +166,8 @@ main {
     flex-wrap: wrap;
     position: relative;
     margin: 0em 0em 0em 13em;
-    
-    
+
+
 }
 
 .cool2 {
@@ -183,7 +185,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.grid2 img{
+.grid2 img {
     max-width: 100%;
     border: lightblue solid 4px;
     display: flex;
@@ -191,15 +193,15 @@ main {
     flex-wrap: wrap;
     position: relative;
     margin: 0em 0em 0em 13em;
-    
-    
+
+
 }
 
-.footer{
- font-size: 20px;
+.footer {
+    font-size: 20px;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -219,11 +221,11 @@ footer ul {
     font-weight: 800;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-a:active{
+a:active {
     text-decoration: none;
 }
