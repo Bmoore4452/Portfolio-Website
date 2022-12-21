@@ -10,4 +10,4 @@ This is a website that displays my portfolio is all of the applications that I h
 
 ## Link
 
-https://bmoore4452.github.io/Portfolio-Website/#contact
+https://bmoore4452.github.io/Portfolio-Website/
