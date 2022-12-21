@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <title>Portfolio</title>
 </head>
@@ -13,9 +14,9 @@
         <div class="header">Website Portfolio</div>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
+                <li> <a href="#about-me">About Me</a></li>
+                <li> <a href="#work">Work</a></li>
+                <li> <a href="#contact">Contact Me</a></li>
                 <li>Resumè</li>
             </ul>
         </nav>
@@ -25,56 +26,51 @@
             <img src="/assets/images/studio.jpeg" alt="logo">
             <div class="cool">Cool! Subtle here!</div>
         </div>
-        <div class="container">
-            <div class="about-me">
+        <section class="container">
+            <div id="about-me" class="about-me">
                 <div class="about-head">
                     <h1>About</h1>
                     <h1>Me</h1>
                 </div>
-                <p>ipsum dolor sit amet, consectetur adipiscing elit. Sed eu placerat massa, vel rutrum nisi. Praesent
-                    ultrices neque et eros vestibulum, et placerat massa pharetra. Morbi at maximus dolor. Nulla gravida
-                    lectus nec ipsum mollis, quis vestibulum lectus iaculis. Proin ut massa vel libero congue ultricies.
-                    Aliquam erat volutpat. Curabitur iaculis erat non pharetra ultrices.</p>
+                <div about-text>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit. Sed eu placerat massa, vel rutrum nisi.
+                        Praesent
+                        ultrices neque et eros vestibulum, et placerat massa pharetra. Morbi at maximus dolor. Nulla
+                        gravida
+                        lectus nec ipsum mollis, quis vestibulum lectus iaculis. Proin ut massa vel libero congue
+                        ultricies.
+                        Aliquam erat volutpat. Curabitur iaculis erat non pharetra ultrices.</p>
+                </div>
             </div>
-            <div class="work">
+        </section>
+        <section class="container2">
+            <div id="work" class="work">
                 <div class="work-head">
                     <h1>Work</h1>
                 </div>
-                <div class="image-container">
-                    <div class="big">
-                        <img src="/assets/images/1176.jpeg" alt="logo">
-                    </div>
-                    <div class="row1">
-                        <div class="left1">
-                            <img src="/assets/images/U87.webp" alt="logo">
-                        </div>
-                        <div class="right1">
-                            <img src="/assets/images/origin.jpeg" alt="logo">
-                        </div>
-                    </div>
-                    <div class="row2">
-                        <div class="left2">
-                            <img src="/assets/images/apollo.jpeg" alt="logo">
-                        </div>
-                        <div class="right2">
-                            <img src="/assets/images/ssl.jpeg" alt="logo">
-                        </div>
-                    </div>
+                <div class="big">
+                    <img src="/assets/images/1176.jpeg" alt="">
                 </div>
             </div>
-            <footer>
-                <div class="footer">
-                    <h1>Contact</h1>
-                    <ul>
-                        <li>555-5555</li>
-                        <li>bmooretohp@gmail.com</li>
-                        <li>Github</li>
-                        <li>Bmoore4452</li>
-                        <li>Spotify</li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
+            <div class="grid">
+                <div id="left1"><img src="/assets/images/apollo.jpeg" alt=""></div>
+                <div id="right1"><img src="/assets/images/apollo.jpeg" alt=""></div>
+            </div>
+            <div class="grid2">
+                <div id="left2"><img src="/assets/images/apollo.jpeg" alt=""></div>
+                <div id="right2"><img src="/assets/images/apollo.jpeg" alt=""></div>
+            </div>
+        </section>
+        <footer>
+            <h1 id="contact" class="footer">Contact</h1>
+            <ul>
+                <li>555-5555</li>
+                <li>bmooretohp@gmail.com</li>
+                <li>Github</li>
+                <li>@bmoore4452</li>
+                <li>Spotify</li>
+            </ul>
+        </footer>
     </main>
 </body>
 
